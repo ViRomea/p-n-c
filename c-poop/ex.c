@@ -32,7 +32,7 @@ int main()
 
 int func() 
 {
-	return 25;
+	return 789;
 }
 
 struct int
