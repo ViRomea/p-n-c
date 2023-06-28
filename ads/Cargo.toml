@@ -1,0 +1,12 @@
+
+[package]
+publish=false
+name="ads"
+version="0.1.0"
+authors=["ViR"]
+
+[[bin]]
+name="ads"
+version="0.1.0"
+authors=["ViR"]
+

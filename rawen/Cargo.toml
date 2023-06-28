@@ -1,0 +1,11 @@
+[package]
+publish=false
+name="Rawen"
+version="0.1.0"
+authors=["ViR"]
+
+[[bin]]
+name="Rawen"
+version="0.1.0"
+authors=["ViR"]
+
