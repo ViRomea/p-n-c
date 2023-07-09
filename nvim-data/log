@@ -1,0 +1,2 @@
+ERR 2023-07-03T16:26:45.001 nvim.13360.0 pty_process_spawn:133: pty_process_spawn(C:\WINDOWS\system32\cmd.exe): (NULL): error code: -4054
+ERR 2023-07-03T16:27:06.419 nvim.13360.0 pty_process_spawn:133: pty_process_spawn(C:\WINDOWS\system32\cmd.exe): (NULL): error code: -4054

@@ -77,7 +77,6 @@ pub mod Begin
 
 	fn fight(&Entities) {
 
-
-
-
 	}
+
+}
