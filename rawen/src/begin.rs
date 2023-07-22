@@ -14,8 +14,6 @@ pub mod Begin
 			io::stdin().read_line(&mut run);
 
 			let play: String = String::from("play");
-
-
 			return match run
 			{
 				play => Entities::make_player(),
