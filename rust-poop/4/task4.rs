@@ -10,7 +10,7 @@ impl Clock {
 	pub fn new(hours: i32, minutes: i32) -> Self {
 		let total_minutes = hours * 60 + minutes;
 		let valid_minutes = (total_minutes % (24 * 60) + 24 * 60) % (24 * 60);
-		
+
 		Clock {
 			hours: valid_minutes / 60,
 			minutes: valid_minutes % 60,
@@ -20,7 +20,7 @@ impl Clock {
 	pub fn add_minutes(&self, minutes: i32) -> Self {
 		Clock::new(self.hours, self.minutes + minutes)
 	}
-	
+
 	pub fn subtract_minutes(&self, minutes: i32) -> Self {
 		Clock::new(self.hours, self.minutes - minutes)
 	}
