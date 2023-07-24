@@ -16,6 +16,17 @@ enum TrKinds {
 	Equilateral,
 }
 
+struct TriangleHead {
+	left:  String, 
+	cent:  String,
+	right: String,
+}
+
+struct TriangleBody {
+	
+
+
+
 struct Triangle {
 	a:f32,
 	b:f32,
